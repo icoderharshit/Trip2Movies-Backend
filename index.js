@@ -108,7 +108,9 @@ app.put("/updateFavourites/:id",(req,res)=>{
         }
     });
 })
-
+app.get("/",(req,res)=>{
+    res.send("Backend server working!");
+})
 app.get("/getMovies/:id",(req,res)=>{
     User.findOne({_id:req.params.id}, function (err, results) {
         if (err){
