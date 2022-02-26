@@ -4,7 +4,8 @@
   "description": "This is the backend node server for my Movies app on React.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node index.js"
   },
   "author": "Harshit Sharma",
   "license": "ISC",
